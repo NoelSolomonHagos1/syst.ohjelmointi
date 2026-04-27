@@ -33,7 +33,7 @@ int main(int argc, char *argv[]) {
     
     char *searchterm = argv[1];
 
-    //no files given
+    //only search term given
     if(argc == 2) {
         search(stdin, searchterm);
         return 0;
